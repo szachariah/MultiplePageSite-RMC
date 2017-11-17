@@ -1,0 +1,341 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* End Reset CSS */
+/* Begin Site Styles */
+/* Start user CSS */
+
+html {
+	font-family: sans-serif;
+	font-size: 1.125em;
+  line-height: 1.222;
+  text-rendering: optimizeLegibility;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+	background-image: url("space.jpg");
+	background-attachment: fixed;
+  padding-top: 3.666em;
+  padding-right: 1.222em;
+  padding-left: 1.222em;
+}
+h1,h2,h3,p {
+	padding-bottom: 1.2em;
+	text-align: center;
+}
+h1 {
+	line-height: 1.2em;
+	font-weight: bold;
+  color: #FF2E2E;
+  text-align: center;
+	font-size: 2.5em;
+}
+
+#introduction h1 {
+	font-size: 1em;
+}
+
+h2 {
+	line-height: 1.2em;
+	font-weight: bold;
+  color: white;
+  text-align: center;
+	font-size: 1.5em;
+}
+
+#navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#navigation li {
+  width: 33.333333%;
+  float: left;
+}
+
+/* Layout */
+/* Modular */
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  padding-top: 0.611em;
+  padding-bottom: 0.611em;
+  background-color: grey;
+	color: #FF2E2E;
+  text-align: center;
+  text-decoration: none;
+}
+
+#team h2, #sponsors h1 {
+	line-height: 1.2em;
+	font-weight: bold;
+  color: #FF2E2E;
+  text-align: center;
+	font-size: 1.5em;
+}
+
+#subteams h1 {
+	line-height: 1.2em;
+	font-weight: bold;
+  color: #FF2E2E;
+  text-align: left;
+	font-size: 1.5em;
+}
+
+#objective h1, #awards h1 {
+	font-size: 1.5em;
+	font-style: normal;
+	text-align: left;
+}
+
+figcaption, footer {
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+	color: white;
+}
+
+#intropara {
+	font-size: 1.125em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 99%;
+}
+
+#subteams {
+	list-style-type: square;
+	padding-left: 1em;
+	padding-top: 1em;
+	font-size: 1.125em;
+	line-height: 1.5em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 99%;
+}
+
+#objective {
+	list-style-type: square;
+	padding-top: 1.5em;
+	font-size: 1.125em;
+	line-height: 1.5em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 99%;
+}
+
+#awards {
+	list-style-type: square;
+	padding-top: 1.5em;
+	font-size: 1.125em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 99%;
+}
+
+#awards img {
+	padding-top: 1.5em;
+	display: block;
+	width: 100%;
+}
+
+#sponsors {
+	padding-top: 1.5em;
+	font-size: 1.125em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 99%;
+}
+
+#introduction .img-circle {
+  display: block;
+	border-radius: 50%;
+	margin: auto;
+	height: 45vh;
+	border: 10px solid black;
+}
+
+#team img {
+	display: block;
+	color:white;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px){
+
+	#intropara {
+		font-size: 1.125em;
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 99%;
+	}
+
+	#subteams {
+		padding-top: 1.5em;
+		font-size: 1.125em;
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		width: 99%;
+	}
+
+	#objective {
+		padding-top: 1.5em;
+		font-size: 1.125em;
+		color: white;
+
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		width: 99%;
+	}
+
+	#objective h1 {
+		font-size: 1.5em;
+		text-align: left;
+	}
+
+	#awards {
+		padding-top: 1.5em;
+		font-size: 1.125em;
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		width: 99%;
+	}
+
+	#awards h1 {
+		font-size: 1.5em;
+		text-align: left;
+	}
+
+	#awards img {
+		padding-top: 1.5em;
+		display: block;
+		width: 100%;
+	}
+
+	#sponsors {
+		padding-top: 1.5em;
+		font-size: 1.125em;
+		color: white;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 99%;
+	}
+
+	#sponsors h1 {
+		padding-top: 1em;
+		font-size: 1.5em;
+	}
+
+	#introduction .img-circle {
+	  display: block;
+		border-radius: 50%;
+		margin: auto;
+		height: 45vh;
+	}
+
+	#team img {
+		display: block;
+		width: 100%;
+	}
+
+@media screen and (min-width: 400px){
+		#intropara {
+			width: 85%;
+		}
+		#team figure {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 80vh
+		}
+			#subteams{
+				padding-right: 1em;
+				padding-left: 5em;
+				width: 40%;
+				float: left;
+			}
+			#subteams h1 {
+				padding-right: em;
+				width: 40%;
+				float: left
+				padding-bottom: 1em;
+			}
+			#objective {
+				padding-top: 1em;
+				padding-right: 3em;
+				width: 40%;
+				float: left;
+			}
+			#objective h1 {
+				width: 100%;
+				float: left;
+			}
+		  #awards {
+			width: 40%;
+			padding-right: 3em;
+			float: left;
+		}
+		  #awards h1 {
+			width: 100%;
+			float: left;
+		}
+
+		#sponsors h1 {
+			padding-top: 23.5em;
+		}
+		#sponsors {
+			width: 85%;
+		}
+}
