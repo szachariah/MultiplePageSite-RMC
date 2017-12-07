@@ -43,7 +43,7 @@ html {
   text-size-adjust: 100%;
 }
 body {
-	background-image: url("space.jpg");
+	background-image: url("indexphotos/space.jpg");
 	background-attachment: fixed;
   padding-top: 3.666em;
   padding-right: 1.222em;
@@ -199,6 +199,10 @@ figcaption, footer {
 	border: 10px solid black;
 }
 
+a {
+  color: red; /*link color */
+}
+
 #team img {
 	display: block;
 	color:white;
@@ -210,6 +214,7 @@ figcaption, footer {
 	margin-left: auto;
 	margin-right: auto;
 	width: 45vh;
+	border: black;
 }
 .member-info {
 clear:both;
@@ -239,6 +244,10 @@ clear:both;
 	/*border-bottom: white;*/
 }
 
+ a:link {
+	color: #FF2E2E;
+}
+
 .othermember
 {
 	clear:both;
@@ -257,11 +266,9 @@ clear:both;
 	float: right;
 	width: 55%;
 }
-
 #footer {
 	clear:both;
 }
-
 
 #introduction h1{
 	font-size: 1.5em;
