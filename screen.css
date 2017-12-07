@@ -297,14 +297,6 @@ clear:both;
 		text-align: left;
 		width: 99%;
 	}
-	/*.member-info ul {
-			font-size: 1.125em;
-			line-height: 1.5em;
-			color: red;
-			margin-left: auto;
-			margin-right: auto;
-			padding-top: 5em;
-		}*/
 
 	#objective h1 {
 		font-size: 1.5em;
@@ -358,19 +350,6 @@ clear:both;
 		display: block;
 		width: 100%;
 	}
-	/*.member-info figure img,
-	.member-info figure{
-		display: block;
-		width: 100%;
-	}
-	.member-info ul {
-		font-size: 1.125em;
-		line-height: 1.5em;
-		color: red;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 1em;
-	}*/
 }
 @media screen and (min-width: 400px){
 		#intropara {
