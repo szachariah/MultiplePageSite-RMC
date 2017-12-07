@@ -232,13 +232,33 @@ clear:both;
 	padding-top: 3em;
 	padding-bottom: 1em;
 }
+
 .member-info h1{
+	padding-top: 1em;
 	font-size: 1.5em;
 	/*border-bottom: white;*/
 }
 
 .othermember
 {
+	clear:both;
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.othermember h1{
+	padding-top: 1em;
+	font-size: 1.5em;
+}
+
+.othermember ul {
+	padding-bottom: 1em;
+	float: right;
+	width: 55%;
+}
+
+#footer {
 	clear:both;
 }
 
@@ -352,7 +372,7 @@ clear:both;
 		padding-top: 1em;
 	}*/
 }
-@media screen and (max-width: 400px){
+@media screen and (min-width: 400px){
 		#intropara {
 			width: 85%;
 		}
@@ -389,29 +409,28 @@ clear:both;
 			padding-right: 3em;
 			float: left;
 		}
-		  #awards h1 {
-			width: 100%;
-			float: left;
-		}
-
 		#sponsors h1 {
 			padding-top: 23.5em;
 		}
 		#sponsors {
 			width: 85%;
 		}
-
-		.member-info ul{
-			float: none;
-			width: 100vw;
-
-		}
-		.member-info figure{
-			float: none;
-			width: 100vw;
-		}
-		.member-info figure {
-			width: 100%;
-		}
-
+}
+@media screen and (max-width: 400px) {
+	.member-info ul{
+		float: none;
+		width: 100vw;
+	}
+	.member-info figure{
+		float: none;
+		width: 100vw;
+	}
+	.member-info figure {
+		width: 100%;
+	}
+	.othermember ul {
+		float: none;
+		width: 100vw;
+		text-align: left;
+	}
 }
