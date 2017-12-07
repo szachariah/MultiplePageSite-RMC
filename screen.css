@@ -281,97 +281,14 @@ clear:both;
 	width: 100%;
 }
 #footer {
+	padding-top: 1em;
 	clear:both;
 }
 
 #introduction h1{
 	font-size: 1.5em;
 }
-@media screen and (min-width: 768px){
 
-	#intropara {
-		font-size: 1.125em;
-		color: white;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		width: 99%;
-	}
-
-	#subteams {
-		padding-top: 1.5em;
-		font-size: 1.125em;
-		color: white;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: left;
-		width: 99%;
-	}
-
-	#objective {
-		padding-top: 1.5em;
-		font-size: 1.125em;
-		color: white;
-
-		margin-left: auto;
-		margin-right: auto;
-		text-align: left;
-		width: 99%;
-	}
-
-	#objective h1 {
-		font-size: 1.5em;
-		text-align: left;
-	}
-
-	#awards {
-		padding-top: 1.5em;
-		font-size: 1.125em;
-		color: white;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: left;
-		width: 99%;
-	}
-
-	#awards h1 {
-		font-size: 1.5em;
-		text-align: left;
-	}
-
-	#awards img {
-		padding-top: 1.5em;
-		display: block;
-		width: 100%;
-	}
-
-	#sponsors {
-		padding-top: 1.5em;
-		font-size: 1.125em;
-		color: white;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		width: 99%;
-	}
-
-	#sponsors h1 {
-		padding-top: 1em;
-		font-size: 1.5em;
-	}
-
-	#introduction .img-circle {
-	  display: block;
-		border-radius: 50%;
-		margin: auto;
-		height: 45vh;
-	}
-
-	#team img {
-		display: block;
-		width: 100%;
-	}
-}
 @media screen and (min-width: 500px){
 		#intropara {
 			width: 85%;
@@ -441,4 +358,88 @@ clear:both;
 	    width: 90vw;
 	    padding-bottom: 2em;
 	}
-}
+@media screen and (min-width: 768px){
+
+		#intropara {
+			font-size: 1.125em;
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			width: 99%;
+		}
+
+		#subteams {
+			padding-top: 1.5em;
+			font-size: 1.125em;
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: left;
+			width: 99%;
+		}
+
+		#objective {
+			padding-top: 1.5em;
+			font-size: 1.125em;
+			color: white;
+
+			margin-left: auto;
+			margin-right: auto;
+			text-align: left;
+			width: 99%;
+		}
+
+		#objective h1 {
+			font-size: 1.5em;
+			text-align: left;
+		}
+
+		#awards {
+			padding-top: 1.5em;
+			font-size: 1.125em;
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: left;
+			width: 99%;
+		}
+
+		#awards h1 {
+			font-size: 1.5em;
+			text-align: left;
+		}
+
+		#awards img {
+			padding-top: 1.5em;
+			display: block;
+			width: 100%;
+		}
+
+		#sponsors {
+			padding-top: 1.5em;
+			font-size: 1.125em;
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			width: 99%;
+		}
+
+		#sponsors h1 {
+			padding-top: 1em;
+			font-size: 1.5em;
+		}
+
+		#introduction .img-circle {
+		  display: block;
+			border-radius: 50%;
+			margin: auto;
+			height: 45vh;
+		}
+
+		#team img {
+			display: block;
+			width: 100%;
+		}
+	}
