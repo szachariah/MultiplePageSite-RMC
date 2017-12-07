@@ -200,7 +200,7 @@ figcaption, footer {
 }
 
 a {
-  color: red; /*link color */
+  color: #FF2E2E; /*link color */
 }
 
 #team img {
@@ -236,6 +236,7 @@ clear:both;
 	margin-right: auto;
 	padding-top: 3em;
 	padding-bottom: 1em;
+	list-style-type: square;
 }
 
 .member-info h1{
@@ -265,6 +266,19 @@ clear:both;
 	padding-bottom: 1em;
 	float: right;
 	width: 55%;
+	list-style-type: square;
+}
+
+#contact figure{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60vw;
+	padding-bottom: 2em;
+}
+#contact img {
+	display: block;
+	width: 100%;
 }
 #footer {
 	clear:both;
@@ -403,6 +417,7 @@ clear:both;
 		}
 }
 @media screen and (max-width: 400px) {
+
 	.member-info ul{
 		float: none;
 		width: 100vw;
@@ -418,5 +433,12 @@ clear:both;
 		float: none;
 		width: 100vw;
 		text-align: left;
+	}
+	#contact figure {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 90vw;
+	    padding-bottom: 2em;
 	}
 }
